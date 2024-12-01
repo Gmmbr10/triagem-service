@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prontuário</title>
+  <link rel="stylesheet" href="{include_path}public/style/app.css">
+</head>
+<body>
+
+  <main class="container">
+
+    <section class="col-2">
+      <form id="form_cadastrar" onsubmit="cadastrarUsuario();return false;" class="column padding rounded bg-white">
+
+        <h2>Cadastre-se</h2>
+
+        <span class="success" id="success_message"></span>
+
+        <section class="input-box">
+
+          <label for="nome">Nome</label>
+          <input type="text" name="nome" id="nome">
+          <span class="error" id="error_nome"></span>
+          
+        </section>
+
+        <section class="input-box">
+
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+          <span class="error" id="error_email"></span>
+          
+        </section>
+
+        <section class="input-box">
+
+          <label for="senha">Senha</label>
+          <input type="password" name="senha" id="senha">
+          <span class="error" id="error_senha"></span>
+          
+        </section>
+
+        <button type="submit" class="btn btn-secondary">Cadastrar</button>
+        
+      </form>
+      <form id="form_entrar" onsubmit="entrar();return false;" class="column padding rounded bg-white">
+
+        <h2>Entrar</h2>
+        
+        <span class="success" id="success_message"></span>
+
+        <section class="input-box">
+
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+          <span class="error" id="error_email"></span>
+          
+        </section>
+
+        <section class="input-box">
+
+          <label for="senha">Senha</label>
+          <input type="password" name="senha" id="senha">
+          <span class="error" id="error_senha"></span>
+          
+        </section>
+
+        <button type="submit" class="btn">Entrar</button>
+        
+      </form>
+    </section>
+    
+  </main>
+  
+  <script src="{include_path}public/script/cadastrarUsuario.js"></script>
+  <script src="{include_path}public/script/entrar.js"></script>
+</body>
+</html>
