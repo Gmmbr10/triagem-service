@@ -34,7 +34,7 @@ Navegue até a pasta deste projeto e execute o seguinte código `docker compose 
 
 Após este processo, copie e cole os scripts do arquivo `src/triagem.sql` no container do banco de dados.
 
-Com isso, todo o setup deve estar configurado e pronto para usar na url [localhost:8888](localhost:8888).
+Com isso, todo o setup deve estar configurado e pronto para usar na url [localhost:8888](http://localhost:8888).
 
 ## Autores
 
