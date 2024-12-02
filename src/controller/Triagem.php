@@ -95,7 +95,7 @@ class Triagem {
     }
 
     if ( empty($data[0]["febre"]) ) {
-      $errors[] = "Campo fébre vazio!";
+      $errors[] = "Campo Febre vazio!";
     }
 
     if ( empty($data[0]["sintomas"]) ) {
@@ -180,7 +180,7 @@ class Triagem {
     }
 
     if ( empty($data[0]["febre"]) ) {
-      $errors[] = "Campo fébre vazio!";
+      $errors[] = "Campo Febre vazio!";
     }
 
     if ( empty($data[0]["sintomas"]) ) {

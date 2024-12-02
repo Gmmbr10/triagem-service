@@ -83,7 +83,7 @@ function buscarDados() {
 
                   <section class="input-box">
 
-                    <label for="febre">Fébre</label>
+                    <label for="febre">Febre</label>
                     <input type="number" step="0.1" name="febre" id="febre">
                     <span class="error" id="error_febre"></span>
 
